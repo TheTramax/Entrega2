@@ -1,0 +1,119 @@
+/*css parael body cambia color de fondo de la pagina*/
+body {
+    background-color: #695cdb!important;
+}
+/*css para el navbar*/
+#navegador {
+    background-color: #4c45c9!important;
+}
+
+/* Cambiar color de todas las palabras del navbar */
+#navegador .navbar-brand,
+#navegador .navbar-nav .nav-link {
+    color: white; /* Cambia "white" al color deseado para el texto */
+}
+
+/* Cambiar color de todas las palabras del navbar al pasar el cursor */
+#navegador .navbar-brand:hover,
+#navegador .navbar-nav .nav-link:hover {
+    color: lightgray; /* Cambia "lightgray" al color deseado para el texto al pasar el cursor */
+}
+
+#lista {
+    margin-left: auto;
+    margin-right: 10px;
+    list-style: none; /* Quita los marcadores de lista */
+    padding: 5px; /* Elimina el relleno predeterminado de la lista */
+}
+
+#lista li {
+    padding: 5px 10px; /* Agrega relleno alrededor de cada elemento de la lista */
+    transition: background-color 0.3s; /* Agrega una transición suave para el cambio de color de fondo */
+}
+
+#lista li:hover {
+    background-color: rgb(95, 89, 89); /* Cambia "lightgray" al color que desees para el fondo cuando se pasa el cursor */
+}
+
+.navbar-brand {
+    padding: 15px; /* Agrega relleno a la marca en la barra de navegación */
+}
+
+/*css para el carrusel*/
+#Carrusel{
+    padding: 50px 0;
+    margin: 0 auto; 
+    max-width: 1000px;
+    border: 2px;
+    border-color: white; 
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+} 
+/*css para las card*/
+.parent{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 5px auto;
+    margin-top: 50px;
+    max-width: 1200px;
+} 
+
+.card{
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(102, 38, 38, 0.1);
+}
+/* css para el contacto*/
+#contacto{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+/*css para los h3*/
+#subtitle{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#subtitle1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color:white;
+}
+
+#subtitle2{
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+}
+
+#info{
+    color: white;
+}
+/*css para el fomulario*/
+#formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+label{
+    color: white;
+}
+
+ /* Estilo para el botón del formulario */
+#formulario button {
+    background-color: #8672ed; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */ /* Color del borde del botón */
+}
